@@ -10,6 +10,7 @@ function demo(value) {
       {/* <h1 className="heading_style">MOVIE LIST</h1> */}
       {/* {Data.map(function ncard(value) {
         return ( */}
+      <h1>Movie List Application</h1>
       <Cards
         imgsrc={value.src}
         title={value.title}
