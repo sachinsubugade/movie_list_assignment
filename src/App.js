@@ -10,7 +10,7 @@ function demo(value) {
       {/* <h1 className="heading_style">MOVIE LIST</h1> */}
       {/* {Data.map(function ncard(value) {
         return ( */}
-      <h1>Movie List Application</h1>
+
       <Cards
         imgsrc={value.src}
         title={value.title}
@@ -26,5 +26,10 @@ function demo(value) {
 
 // export default App;
 export default function App() {
-  return <>{data.map(demo)}</>;
+  return (
+    <>
+      <h1>Movie List Application</h1>
+      {data.map(demo)}
+    </>
+  );
 }
